@@ -4,4 +4,4 @@ pandas
 scikit-learn
 pickle5
 warnings
-streamlit==1.30.0
+streamlit==1.43.2
