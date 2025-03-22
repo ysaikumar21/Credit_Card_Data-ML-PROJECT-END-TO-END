@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 from sklearn.ensemble import RandomForestClassifier
 reg = RandomForestClassifier()
-g = pickle.load(open('C:\\Users\\Saiku\\Downloads\\Credit_Project\\Credit_card_project.pkl','rb'))
+g = pickle.load(open('Credit_card_project.pkl', 'rb'))  # If in the same directory
 from flask import Flask , render_template , request
 
 app = Flask(__name__)
