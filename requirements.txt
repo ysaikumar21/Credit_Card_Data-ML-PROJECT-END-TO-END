@@ -1,7 +1,6 @@
-flask
+streamlit
 numpy
 pandas
 scikit-learn
-pickle5
+pickle-mixin
 warnings
-streamlit==1.43.2
